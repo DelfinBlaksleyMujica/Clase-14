@@ -1,0 +1,53 @@
+@import "variables";
+@import "grillas";
+@import "tipografias";
+
+
+h1{
+    color: red;
+}
+
+h2{
+    color: green;
+}
+
+ul {
+    list-style:none;
+        li {
+            padding:15px;
+            display: inline-block;
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: $color-titulos;
+
+                    &:hover{
+                        background-color:red;
+                    }
+                }
+            }
+}
+
+section {
+    background-color: black;
+
+    div {
+        display:flex;
+
+        .otrodiv{
+
+            p {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size:2rem;
+        }
+
+        img {
+            max-width: 100%;
+        }
+        }    
+    }
+}
+
